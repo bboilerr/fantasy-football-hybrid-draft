@@ -1,0 +1,28 @@
+Project explanation: http://bboilerr.wordpress.com/2012/04/02/fantasy-football-hybrid-draft/
+
+Summary
+=======
+
+I love fantasy football. A lot. I especially love fantasy football drafts, and even more so draft parties. However, if you don't have the perfect league where everyone lives in the same city and is dedicated enough to attend the draft party, then problems can arise.
+
+For a while now, I've been thinking about undertaking a project to put together an application that would enable a fantasy football league to efficiently put on an offline draft with remote participants. I've searched high and low for some type of app or fantasy service that has anything resembling the functionality I want, but to no avail.
+
+10,000 Foot View
+=================
+
+- Allow for a fully offline draft where all picks can be entered in a single computer.
+
+Draft parties are great fun, but the requirement that everyone brings a laptop is unfortunate, and can lead to some technological problems (shoddy WiFi) and personal property concerns (spilt beer).
+
+Offline drafts are a good way to avoid these issues, and they work great for some leagues, but they can be a bit laborious for whoever's running things and hard to follow for everyone else. Tracking an offline draft on a computer (possibly displayed on a big screen) makes it easier for everyone. ESPN actually has an app for that.
+
+The problem with offline drafts, regardless of tracking method, is that if your league has players that can't make it to the draft party, they have to draft by telephone or chat and it can be difficult for them to keep track of everything.
+
+- Allow for remote draft participants to draft with a web interface similar to what they'd use if it were an online draft.
+
+To avoid the inherent problems that come with being a remote participant in an offline draft, just make it like an online draft for those users. The remote users would interface with the same server that the main computer at the draft party is interfacing with. They would see whose turn it is, what players are available, and how much time they have left to pick just like if they were participating in an online draft.
+
+- You don't have to bring a computer to the draft party, but you can if you prefer.
+
+For some, even those at the draft party, having the online-draft-like interface might be preferable so they don't have to keep track of what players are available or whose turn it is. Some people want to be connected, and it would be nice to have that option. Even if it just meant being able to draft and track the draft from your phone while at the party (instead of lugging around a laptop or iPad, and leaving said laptop at the bar after a few hours of drinking...I know a guy).
+
