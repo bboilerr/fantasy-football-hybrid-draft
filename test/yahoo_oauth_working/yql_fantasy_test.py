@@ -17,7 +17,7 @@ def main():
     oauthapp = yahoo.application.OAuthApplication(CONSUMER_KEY, CONSUMER_SECRET, APPLICATION_ID, CALLBACK_URL)
 
     y3 = yql.ThreeLegged(CONSUMER_KEY, CONSUMER_SECRET)
-    query = "select * from fantasysports.players(0, 2) where game_key='nfl'"
+    query = "select * from fantasysports.players where game_key='nfl' and start='75' and count='5'"
 
     #request_token, auth_url = y3.get_token_and_auth_url()
 
@@ -41,7 +41,10 @@ def main():
     response = y3.execute(query, token=access_token)
 
 
-    print response.rows
+    print response.count
+
+    if response.count > 0:
+        print response.rows[-1]
 
 if __name__ == '__main__':
     main()
