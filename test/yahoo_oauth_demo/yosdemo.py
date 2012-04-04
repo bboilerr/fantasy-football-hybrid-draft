@@ -1,5 +1,5 @@
 """
-Yahoo! Python SDK
+Yahoo! Python SDK 
 
  * Yahoo! Query Language
  * Yahoo! Social API
