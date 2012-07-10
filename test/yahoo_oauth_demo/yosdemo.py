@@ -55,7 +55,8 @@ from google.appengine.api import urlfetch
 # update sys path to include bundled modules with priority
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'sdk/'))
 
-import oauthlib.oauth, gmemsess
+#import oauthlib.oauth, gmemsess
+import gmemsess
 import yahoo.oauth, yahoo.yql, yahoo.application
 
 oauthapp = yahoo.application.OAuthApplication(CONSUMER_KEY, CONSUMER_SECRET, APPLICATION_ID, CALLBACK_URL)
